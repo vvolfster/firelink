@@ -1,7 +1,13 @@
 {
     "name": "firelink",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A relational integrity layer on top of Firebase Firestore",
+    "license": "MIT",
+    "files": [
+        "dist/",
+        "README.md",
+        "LICENSE"
+    ],
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "exports": {
@@ -11,7 +17,7 @@
         "./types": "./dist/shared/types.js"
     },
     "bin": {
-        "firelink": "./dist/cli/index.js"
+        "firelink": "dist/cli/index.js"
     },
     "scripts": {
         "build": "tsc -p tsconfig.build.json",
