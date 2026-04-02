@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+*.js.map
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+.env
+.env.*
+*.local

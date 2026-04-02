@@ -1,0 +1,16 @@
+{
+    "sql": {
+        "dialect": "postgresql",
+        "connectionString": "postgresql://user:pass@localhost:5432/mydb"
+    },
+    "firestore": {
+        "projectId": "my-firebase-project",
+        "serviceAccountPath": "./service-account.json"
+    },
+    "tables": ["users", "posts"],
+    "appName": "firelink",
+    "output": {
+        "typesFile": "./firelink.types.ts"
+    },
+    "apiKey": "your-secret-api-key-here"
+}
